@@ -1,0 +1,26 @@
+# Arquivos de ambiente - NUNCA commite suas chaves!
+.env
+
+# Diretório de repositórios clonados pelo orquestrador
+.repos/
+
+# Cache e artefatos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+.venv/
+virtualenv/
+env/
+venv/
+
+# Arquivos de configuração de IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
