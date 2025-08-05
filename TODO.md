@@ -8,19 +8,19 @@ Este documento organiza as tarefas restantes para finalizar o protótipo, garant
 
 *O objetivo desta fase é garantir que o protótipo seja robusto, funcional e produza resultados de alta qualidade.*
 
-- [ ] **Revisar e Finalizar a Classificação de Arquivos:**
+- [x] **Revisar e Finalizar a Classificação de Arquivos:**
   - **Tarefa:** Validar a lógica em `classify_files` no `orquestrador_final.py`.
   - **Critério de Aceitação:** Garantir que arquivos de projetos complexos (com múltiplos frameworks) sejam categorizados corretamente.
 
-- [ ] **Revisar e Finalizar a Análise de Código:**
+- [x] **Revisar e Finalizar a Análise de Código:**
   - **Tarefa:** Testar e refinar os padrões de Regex no método `_analyze_single_file` para JavaScript e Java. Adicionar suporte básico para Ruby e PHP se o tempo permitir.
   - **Critério de Aceitação:** O analisador deve extrair com sucesso classes, funções, constantes e endpoints de pelo menos 3 linguagens diferentes sem erros.
 
-- [ ] **Refinar a Geração de Documentação (`build_documentation`):
+- [x] **Refinar a Geração de Documentação (`build_documentation`):
   - **Tarefa:** Aprimorar o "prompt matador" com base nos resultados dos testes. Adicionar mais instruções para a IA, como sugerir um diagrama de arquitetura em Mermaid.
   - **Critério de Aceitação:** O `README_GERADO.md` deve ser claro, tecnicamente preciso e visualmente organizado para um desenvolvedor.
 
-- [ ] **Testar o Fluxo de Pull Request:**
+- [x] **Testar o Fluxo de Pull Request:**
   - **Tarefa:** Executar o ciclo completo em um repositório de teste no GitHub.
   - **Critério de Aceitação:** O Pull Request deve ser criado com sucesso, com o título, corpo e branch corretos.
 
